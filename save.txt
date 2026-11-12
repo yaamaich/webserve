@@ -1,0 +1,19 @@
+
+
+
+
+├── ConfigData.hpp            // LocationConfig & ServerConfig definitions
+├── ConfigData.cpp            // Default constructor implementations
+├── TokenStream.hpp           // Lexer / Scanner abstraction
+├── TokenStream.cpp
+├── LocationBuilder.hpp       // Builder for LocationConfig
+├── LocationBuilder.cpp
+├── ServerBuilder.hpp         // Builder for ServerConfig
+├── ServerBuilder.cpp
+├── ConfigParser.hpp          // Dispatcher / Coordinator using Strategy/Command pattern
+└── ConfigParser.cpp
+
+
+
+
+
