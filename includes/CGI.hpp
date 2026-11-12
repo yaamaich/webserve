@@ -14,7 +14,6 @@
 #define CGI_HPP
 
 #include <string>
-#include <vector>
 
 class CGI
 {
@@ -31,10 +30,10 @@ class CGI
 
     private:
         static char** buildEnvironment(const std::string& scriptPath,
-                                      const std::string& method,
-                                      const std::string& queryString,
-                                      const std::string& body,
-                                      const std::string& contentType);
+                                       const std::string& method,
+                                       const std::string& queryString,
+                                       const std::string& body,
+                                       const std::string& contentType);
 };
 
 #endif
